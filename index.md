@@ -1,37 +1,58 @@
-## Welcome to GitHub Pages
+## Welcome to FastLaravel
 
-You can use the [editor on GitHub](https://github.com/FastXGroup/FastLaravel/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+# Laravel Boilerplate for AdminLTE Theme
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Laravel Boilerplate with [AdminLTE](https://adminlte.io/) Theme with [FastLaravel](https://github.com/FastXGroup/FastLaravel).
 
-### Markdown
+Youtube: https://www.youtube.com/watch?v=tk9CJU9W7BU
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Following things are ready to be used directly with AdminLTE Theme.
 
-```markdown
-Syntax highlighted code block
+- Signup
+- Login
+- Forgot Password
+- Password Reset
+- Home Layout with Sidebar
+- User Manager
+- Role Manager
+- Permission Manager
+- Checkin/out User
+- Chart Checkin/out of user on dashboard
+- Update Profile
+- Multi Languages
+- Generator Builder
 
-# Header 1
-## Header 2
-### Header 3
+## To Do
+- Change password
 
-- Bulleted
-- List
+## Next Plan
+- Timeline on profile
+- FastBlog base from FastLaravel
 
-1. Numbered
-2. List
+## Packages Installed
+- Laravel 8.12
+- InfyOm Laravel Generator
+- AdminLTE Templates
+- Laravel UI
+- Laravel Collective
+- Spatie/laravel-permission
+- barryvdh/laravel-debugbar
+- yajra/laravel-datatables
 
-**Bold** and _Italic_ and `Code` text
+## Usage
 
-[Link](url) and ![Image](src)
-```
+1. Clone/Download a repo.
+2. Copy `.env.example` file to `.env` & Setup your environment variables
+3. Run `composer install`
+4. Generate application key by running `php artisan key:generate`
+5. Run `php artisan migrate --seed`
+6. Run `php artisan serve`
+7. Login account:
+- Supper Admin: admin@fastlaravel.dev/123@12
+- Guest: guest@fastlaravel.dev/123@123
+- Leader: leader@fastlaravel.dev/123@123
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Once everything is installed, you are ready to go with generator.
 
-### Jekyll Themes
+Contact: nguyenvanhaudev@gmail.com
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/FastXGroup/FastLaravel/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
